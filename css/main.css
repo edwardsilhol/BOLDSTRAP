@@ -120,7 +120,7 @@ h1 {
     margin: 0;
     padding-top: 40px;
     font-size: 100px;
-    font-family:'FreestyleScriptW01-Bold';
+    font-family:'FreestyleScriptW01-Regu';
 
 }
 
@@ -296,7 +296,7 @@ header p {
 .boxTitle {
     font-size: 50px;
     color: #98210d;
-    font-family: 'FreestyleScriptW01-Bold';
+    font-family: 'FreestyleScriptW01-Regu';
 }
 
 .boxDescription p {
@@ -482,7 +482,7 @@ header p {
         height: 40px;
         background: #191919;
         color: #b39d64;
-        font-family: 'FreestyleScriptW01-Bold';
+        font-family: 'FreestyleScriptW01-Regu';
         font-size: 30px;
     }
 
