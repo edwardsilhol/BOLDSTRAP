@@ -121,7 +121,6 @@ h1 {
     padding-top: 40px;
     font-size: 100px;
     font-family:'FreestyleScriptW01-Bold';
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
 
 }
 
@@ -151,6 +150,10 @@ strong {
 }
 
 #menuMobileToggle {
+    display: none;
+}
+
+#menuMobile {
     display: none;
 }
 
@@ -248,7 +251,8 @@ header p {
 #steps {
     position: relative;
     background: url("../img/grunge_wall.png") repeat;
-    height: 3490px;
+    height: auto;
+    padding-bottom: 40px;
     z-index: 2;
 }
 
@@ -257,8 +261,8 @@ header p {
     margin: 70px 30px 30px 30px;
     background: white;
     position:relative;
-    height: 300px;
-    padding: 20px 40px 40px 40px;
+    height: auto;
+    padding: 20px 40px 20px 40px;
 }
 
 .box:before,
@@ -304,6 +308,7 @@ header p {
     background: url("../img/ravenna.png") repeat;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
     z-index: 3;
+    padding-bottom: 40px;
 }
 
 #context {
@@ -463,7 +468,7 @@ header p {
 @media only screen and (max-width: 800px) {
     /* Style adjustments for viewports that meet the condition */
 
-    menu {
+    menu, #menuMobile {
         display: none;
     }
 
@@ -481,7 +486,7 @@ header p {
         font-size: 30px;
     }
 
-    menu {
+    #menuMobile {
         position: fixed;
         top: 39px;
         left: 0;

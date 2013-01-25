@@ -37,6 +37,19 @@
         </ul>
     </div>
 </menu>
+<div id="menuMobile">
+    <div class="content">
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#tips">Golden Rules</a></li>
+            <li><a href="#steps">The process</a></li>
+            <li><a href="#comments">Comments</a></li>
+            <li><a href="#context">Context</a></li>
+            <li><a href="#about">About the author</a></li>
+            <li><a href="#license">Copyright</a></li>
+        </ul>
+    </div>
+</div>
 <header>
     <div class="content center">
         <img src="img/boldstrap.png">
@@ -49,7 +62,7 @@
         <div class="center">
             <h1>Bold what?</h1>
         </div>
-        <p>This site offers a set of simple guidelines to help entrepreneurs intelligently raise seed money from family and friends to accelerate their company. It adresses questions like: how do you ask for money without feeling awkward? What kind of terms do you offer? How do you present your deal?</p>
+        <p>This site offers a set of simple guidelines to help entrepreneurs intelligently raise seed money from family and friends to accelerate their company. It addresses questions like: how do you ask for money without feeling awkward? What kind of terms do you offer? How do you present your deal?</p>
         <p>Just scroll down to get started. Or maybe you want a little more <a href="#context">background information</a> first?</p>
     </div>
 </section>
@@ -101,32 +114,47 @@
         <div class="box">
             <div class="boxTitle">1. A good story starts with a good title.</div>
             <div class="boxDescription">
-                <p>With the help of my my friends from THNK, I've broken down the process of writing the fundraising offer into simple steps. This is a work in progress, and it's not perfect. Feel free to leave a comment below if you think you can help improve it!</p>
+                <p>Write something <strong>short and inviting</strong>. "Now's the time!" is a good starting point. Remember you're writing to people you know well: they will open your email, so <strong>don't get too commercial yet</strong>.</p>
             </div>
         </div>
         <div class="box">
-            <div class="boxTitle">2. Get personal, and give us an engaging story.</div>
-            <div class="boxDescription"></div>
+            <div class="boxTitle">2. Get personal, and give an engaging story.</div>
+            <div class="boxDescription">
+                <p>Keep it short, but <strong>we need a little context</strong>. Make it clear that you're asking for financial support, to jumpstart your project. Make it clear that you are very professional about it. <strong>Explain why</strong> you're doing what you're doing. What's your vision? Keep it short!.</p>
+            </div>
         </div>
         <div class="box">
             <div class="boxTitle">3. Time for a smart presentation of your business.</div>
-            <div class="boxDescription"></div>
+            <div class="boxDescription">
+                <p>This is serious. It should be like an investor presentation. <strong>Short and to the point</strong>. What does your company do? How long have you been working on it? What have you done already? Who is in your team? Who are your partners? What are your key assets? What are your next milestones? Can we test your product?</p>
+                <p>Twitter-style, <strong>one sentence answers are the best</strong>. Bulletpoints are cool too.</p>
+            </div>
         </div>
         <div class="box">
-            <div class="boxTitle">4. What exactly are you going to do with my money?</div>
-            <div class="boxDescription"></div>
+            <div class="boxTitle">4. How much do you need? How are you going to spend it?</div>
+            <div class="boxDescription">
+                <p>So you need money, huh? Everybody needs money! State the exact amount you want to raise. What exactly is it going to be funding? Can we monitor the progress? <strong>Be as precise as possible</strong>.</p>
+            </div>
         </div>
         <div class="box">
-            <div class="boxTitle">5. What do I get when your company goes public?</div>
-            <div class="boxDescription"></div>
+            <div class="boxTitle">5. What's the deal?</div>
+            <div class="boxDescription">
+                <p>This is the gist of it. <strong>Make an offer they can't refuse</strong>. Give options (3 to 5 options is good). People should be able to help you whatever their financial situation is. <strong>Don't commit to giving equity for small amounts</strong>. Instead, find fun ways to reward people for helping you: give them free accounts for their friends; Send a certificate, or a limited edition artwork; Put their name on your website; Commit to doing something really funny when you reach your goal, and send them the video!</p>
+                <p>This part must be graphic, and <strong>call to action</strong>. Make a column for each option, and in a box clearly state the amount and the advantages. <strong>Make each box a link to a page that seals the deal</strong>.</p>
+                <p>Note: the easiest way to transfer money is through Paypal. Set up an account for your fundraiser and go. Ideally, the option boxes should <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_pdn_xclick_techview_outside" alt="Set up Paypal button">prefill the amount on the Paypal page</a>.</p>
+            </div>
         </div>
         <div class="box">
             <div class="boxTitle">6. Hey, what if I want to do more than give you money?</div>
-            <div class="boxDescription"></div>
+            <div class="boxDescription">
+                <p>Yes, you need money. But maybe there's other things that can help: an introduction to a potential mentor, investor, or client; Advice on a specific topic; A free office; <strong>Think of simple things that can help</strong>. Things people can do by just writing an email, or sitting down with you for coffee. Focus on <strong>actionable items</strong>.</p>
+            </div>
         </div>
         <div class="box">
             <div class="boxTitle">7. Let's wrap this up!</div>
-            <div class="boxDescription"></div>
+            <div class="boxDescription">
+                <p>When someone gets to this point, the least you can do is <strong>say thank you</strong> for taking to time to read through your proposal. Let them know you're happy to give more information if they want. Remind them that if they help you, <strong>your success will be their success too!</strong></p>
+            </div>
         </div>
     </div>
 </section>
@@ -225,17 +253,17 @@
 </script>
 <script type="text/javascript">
     $("#menuMobileToggle").bind('click', function() {
-        if ($("menu").css("display") == "none") {
-            $("menu").css("display", "block");
+        if ($("menuMobile").css("display") == "none") {
+            $("menuMobile").css("display", "block");
         }
 
         else {
-            $("menu").css("display", "none");
+            $("menuMobile").css("display", "none");
         }
     });
 
-    $("menu").bind('click', function() {
-        $("menu").css("display", "none");
+    $("menuMobile").bind('click', function() {
+        $("menuMobile").css("display", "none");
     });
 </script>
 </body>
